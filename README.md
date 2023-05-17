@@ -3,7 +3,7 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b>TO DO LIST</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-do-list] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-**[To-do-list]** is a webpage to add and remove tasks and display them to a list with completed functionality using javascript and webpack.
+**[Leaderboard]** The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -73,10 +73,8 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[edit_to_do_items]**
-- **[check_completed_task]**
-- **[remove_all_completed_task]**
-
+- **[add_scores]**
+- **[fetch_data_using_api]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +84,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://mesakduducoder.github.io/MesakDuduCoder.github.io-JS-To-Do-List/dist/)
+- [Live Demo Link] Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,15 +106,15 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/MesakDuduCoder/JS-To-Do-List.git
+  git clone https://github.com/MesakDuduCoder/Leaderboard-JS.git
 
 ### Install
 
 Install this project with:
 
-  cd JS-To-Do-List
+  1.cd Leaderboard-JS
+  2.npm install
 
-  
 ### Usage
 
 To run the project:
