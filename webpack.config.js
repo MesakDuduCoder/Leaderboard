@@ -5,7 +5,6 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
-    print: './src/print.js',
   },
   devServer: {
     static: './dist',
@@ -29,6 +28,13 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+      },
     ],
+  },
+  experiments: {
+    topLevelAwait: true,
   },
 };
