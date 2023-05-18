@@ -142,7 +142,7 @@ type and run command on terminal on root of project folder: npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[arrange_to_do_items]**
+- [ ] **[add_more_games]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

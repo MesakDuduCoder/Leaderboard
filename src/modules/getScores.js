@@ -1,4 +1,4 @@
-export const getScores = async (gameId) => {
+const getScores = async (gameId) => {
   const options = {
     method: 'GET',
     headers: {
@@ -13,3 +13,5 @@ export const getScores = async (gameId) => {
   const data = await response.json();
   return data;
 };
+
+export default getScores;
