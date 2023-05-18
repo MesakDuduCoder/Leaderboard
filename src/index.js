@@ -1,9 +1,9 @@
 import _ from 'lodash';
 import './style.css';
-import { createGame } from './createGame.js';
-import { addScore } from './addScore.js';
-import { getScores } from './getScores.js';
-import { showScores } from './showScores.js';
+import { createGame } from './modules/createGame.js';
+import { addScore } from './modules/addScore.js';
+import { getScores } from './modules/getScores.js';
+import { showScores } from './modules/showScores.js';
 
 const game = await createGame();
 
