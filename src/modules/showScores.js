@@ -1,4 +1,4 @@
-export const showScores = (scores) => {
+const showScores = (scores) => {
   const scoresTable = document.getElementById('display-scores');
   scoresTable.innerHTML = '';
   scores.forEach((item) => {
@@ -7,3 +7,5 @@ export const showScores = (scores) => {
     scoresTable.appendChild(li);
   });
 };
+
+export default showScores;

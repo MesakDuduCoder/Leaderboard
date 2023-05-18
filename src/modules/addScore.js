@@ -1,4 +1,4 @@
-export const addScore = async (name, score, gameId) => {
+const addScore = async (name, score, gameId) => {
   const options = {
     method: 'POST',
     headers: {
@@ -17,3 +17,5 @@ export const addScore = async (name, score, gameId) => {
   const data = await response.json();
   return data;
 };
+
+export default addScore;
