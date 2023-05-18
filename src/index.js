@@ -1,11 +1,7 @@
-import _ from 'lodash';
 import './style.css';
-import { createGame } from './createGame.js';
-import { addScore } from './addScore.js';
-import { getScores } from './getScores.js';
-import { showScores } from './showScores.js';
-
-const game = await createGame();
+import addScore from './modules/addScore.js';
+import getScores from './modules/getScores.js';
+import showScores from './modules/showScores.js';
 
 const gameId = 'CvCuFW4QPCTH7GbK5ogT';
 
